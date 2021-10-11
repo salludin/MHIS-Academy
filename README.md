@@ -1,2 +1,0 @@
-
-## Weninar Laravel Project
