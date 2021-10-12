@@ -13,7 +13,7 @@
 
 @endphp
 
-<div class="top-navbar d-flex border-bottom">
+<!--<div class="top-navbar d-flex border-bottom">
     <div class="container d-flex justify-content-between flex-column flex-lg-row">
         <div class="top-contact-box border-bottom d-flex flex-column flex-md-row align-items-center justify-content-center">
 
@@ -108,7 +108,7 @@
             @endif
         </div>
     </div>
-</div>
+</div>-->
 
 
 @push('scripts_bottom')

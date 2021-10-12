@@ -9,17 +9,18 @@
     <div class="{{ (!empty($isPanel) and $isPanel) ? 'container-fluid' : 'container'}}">
         <div class="d-flex align-items-center justify-content-between w-100">
 
-            <a class="navbar-brand navbar-order mr-0" href="/panel">
+            <a class="navbar-brand navbar-order mr-0" href="/panel" style="padding-right: 70px;">
                 @if(!empty($generalSettings['logo']))
                     <img src="{{ $generalSettings['logo'] }}" class="img-cover" alt="site logo">
                 @endif
             </a>
 
-            <button class="navbar-toggler navbar-order" type="button" id="navbarToggle">
-                <span class="navbar-toggler-icon"></span>
+            <button class="sidebar-toggler btn-transparent d-flex flex-column-reverse justify-content-center align-items-center p-5 rounded-sm sidebarNavToggle" type="button">
+                <span>{{ trans('navbar.menu') }}</span>
+                <i data-feather="menu" width="16" height="16"></i>
             </button>
 
-            <div class="mx-lg-30 d-none d-lg-flex flex-grow-1 navbar-toggle-content " id="navbarContent">
+            <!--<div class="mx-lg-30 d-none d-lg-flex flex-grow-1 navbar-toggle-content " id="navbarContent">
                 <div class="navbar-toggle-header text-right d-lg-none">
                     <button class="btn-transparent" id="navbarClose">
                         <i data-feather="x" width="32" height="32"></i>
@@ -74,9 +75,9 @@
                         @endforeach
                     @endif
                 </ul>
-            </div>
+            </div>-->
 
-            <div class="nav-icons-or-start-live navbar-order">
+            <!--<div class="nav-icons-or-start-live navbar-order">
 
                 <a href="{{ empty($authUser) ? '/login' : ($authUser->isAdmin() ? '/admin/webinars/create' : (($authUser->isUser()) ? '/become_instructor' : '/panel/webinars/new')) }}" class="d-none d-lg-flex btn btn-sm btn-primary nav-start-a-live-btn">
                     {{ (empty($authUser) or !$authUser->isUser()) ? trans('navbar.start_a_live_class') : ($authUser->isUser() ? trans('site.become_instructor') : '') }}
@@ -94,7 +95,7 @@
                     @include(getTemplate().'.includes.notification-dropdown')
                 </div>
 
-            </div>
+            </div>-->
         </div>
     </div>
 </nav>
