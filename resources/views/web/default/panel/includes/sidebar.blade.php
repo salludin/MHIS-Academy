@@ -36,12 +36,13 @@
         </div>
     </div>
 
-    <div class="d-flex sidebar-user-stats pb-10 ml-20 pb-lg-20 mt-15 mt-lg-30">
+    <div class="d-flex justify-content-center sidebar-user-stats pb-10 pb-lg-20 mt-15 mt-lg-30">
         <div class="sidebar-user-stat-item d-flex flex-column">
             <strong class="text-center">{{ $authUser->webinars()->count() }}</strong>
             <span class="font-12">{{ trans('webinars.classes') }}</span>
         </div>
 
+        <!--
         <div class="border-left mx-30"></div>
 
         @if($authUser->isUser())
@@ -55,6 +56,7 @@
                 <span class="font-12">{{ trans('panel.followers') }}</span>
             </div>
         @endif
+        -->
     </div>
 
     <ul class="sidebar-menu pt-10 @if(!empty($authUser->userGroup)) has-user-group @endif" data-simplebar @if((!empty($isRtl) and $isRtl)) data-simplebar-direction="rtl" @endif>
