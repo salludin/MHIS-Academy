@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['namespace' => 'Auth', 'middleware' => ['share']], function () {
-    Route::get('/', 'LoginController@showLoginForm');
+    // Route::get('/', 'LoginController@showLoginForm');
     Route::get('/login', 'LoginController@showLoginForm');
     Route::post('/login', 'LoginController@login');
     Route::get('/logout', 'LoginController@logout');
@@ -45,7 +45,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['impersonate', 'share']], f
     // set Locale
     Route::post('/locale', 'LocaleController@setLocale');
 
-    //Route::get('/', 'HomeController@index');
+    Route::get('/', 'HomeController@index');
 
     Route::group(['prefix' => 'course'], function () {
         Route::get('/{slug}', 'WebinarController@course');
