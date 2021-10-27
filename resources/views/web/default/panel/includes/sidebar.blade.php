@@ -305,6 +305,7 @@
             </div>
         </li>
 
+        <!--
         @if(!$authUser->isUser())
             <li class="sidenav-item {{ (request()->is('panel/marketing') or request()->is('panel/marketing/*')) ? 'sidenav-item-active' : '' }}">
                 <a class="d-flex align-items-center" data-toggle="collapse" href="#marketingCollapse" role="button" aria-expanded="false" aria-controls="marketingCollapse">
@@ -326,6 +327,7 @@
                 </div>
             </li>
         @endif
+        -->
 
         @if($authUser->isOrganization())
             <li class="sidenav-item {{ (request()->is('panel/noticeboard') or request()->is('panel/noticeboard/*')) ? 'sidenav-item-active' : '' }}">
