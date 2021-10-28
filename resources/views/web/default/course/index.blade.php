@@ -57,11 +57,11 @@
 
     </section>
 
-    <section class="container course-content-section">
+    <section class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="course-content-body user-select-none">
-                    <div class="course-body-on-cover text-white">
+<!--                     <div class="course-body-on-cover text-white">
                         <h1 class="font-30 course-title">
                             {{ clean($course->title, 't') }}
                         </h1>
@@ -100,9 +100,9 @@
                             </span>
                             </div>
                         @endif
-                    </div>
+                    </div> -->
 
-                    <div class="@if(!$course->isCourse()) mt-35 @else mt-40 pt-40 @endif">
+                    <div class="@if(!$course->isCourse()) mt-35 @else mt-5 pt-5 @endif">
                         <ul class="nav nav-tabs bg-secondary rounded-sm p-15 d-flex align-items-center justify-content-between" id="tabs-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="position-relative font-14 text-white {{ (empty(request()->get('tab','')) or request()->get('tab','') == 'information') ? 'active' : '' }}" id="information-tab"
@@ -140,7 +140,7 @@
 
             <div class="course-content-sidebar col-12 col-lg-4 mt-25 mt-lg-0">
                 <div class="rounded-lg shadow-sm">
-                    <div class="course-img {{ $course->video_demo ? 'has-video' :'' }}">
+<!--                     <div class="course-img {{ $course->video_demo ? 'has-video' :'' }}">
 
                         <img src="{{ $course->getImage() }}" class="img-cover" alt="">
 
@@ -152,7 +152,7 @@
                                 <i data-feather="play" width="25" height="25"></i>
                             </div>
                         @endif
-                    </div>
+                    </div> -->
 
                     <div class="px-20 pb-30">
                         <form action="/cart/store" method="post">
@@ -174,7 +174,7 @@
                                 @endforeach
                             @endif
 
-                            @if($course->price > 0)
+<!--                             @if($course->price > 0)
                                 <div id="priceBox" class="d-flex align-items-center justify-content-center mt-20">
                                     <span id="realPrice" data-value="{{ $course->price }}"
                                           data-special-offer="{{ !empty($activeSpecialOffer) ? $activeSpecialOffer->percent : ''}}"
@@ -190,7 +190,7 @@
                             @php
                                 $userHasBought = $course->checkUserHasBought();
                                 $canSale = ($course->canSale() and !$userHasBought);
-                            @endphp
+                            @endphp -->
 
                             <div class="mt-20 d-flex flex-column">
                                 @if($course->price > 0)
@@ -212,10 +212,10 @@
 
                         </form>
 
-                        <div class="mt-20 d-flex align-items-center justify-content-center text-gray">
+<!--                         <div class="mt-20 d-flex align-items-center justify-content-center text-gray">
                             <i data-feather="thumbs-up" width="20" height="20"></i>
                             <span class="ml-5 font-14">{{ trans('product.guarantee_text') }}</span>
-                        </div>
+                        </div> -->
 
                         <div class="mt-35">
                             <strong class="d-block text-secondary font-weight-bold">{{ trans('webinars.this_webinar_includes',['classes' => trans('webinars.'.$course->type)]) }}</strong>
@@ -247,7 +247,7 @@
                             @endif
                         </div>
 
-                        <div class="mt-40 p-10 rounded-sm border row align-items-center favorites-share-box">
+<!--                         <div class="mt-40 p-10 rounded-sm border row align-items-center favorites-share-box">
                             @if($course->isWebinar())
                                 <div class="col">
                                     <a href="{{ $course->addToCalendarLink() }}" target="_blank" class="d-flex flex-column align-items-center text-center text-gray">
@@ -270,11 +270,9 @@
                                     <span class="font-12">{{ trans('public.share') }}</span>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="mt-30 text-center">
-                            <button type="button" id="webinarReportBtn" class="font-14 text-gray btn-transparent">{{ trans('webinars.report_this_webinar') }}</button>
-                        </div>
+
                     </div>
                 </div>
 
@@ -371,7 +369,7 @@
                     </div>
                 </div>
 
-                {{-- organization --}}
+<!--                 {{-- organization --}}
                 @if($course->creator_id != $course->teacher_id)
                     @include('web.default.course.sidebar_instructor_profile', ['courseTeacher' => $course->creator])
                 @endif
@@ -383,7 +381,7 @@
                         @include('web.default.course.sidebar_instructor_profile', ['courseTeacher' => $webinarPartnerTeacher->teacher])
                     @endforeach
                 @endif
-                {{-- ./ teacher --}}
+                {{-- ./ teacher --}} -->
 
                 {{-- tags --}}
                 @if($course->tags->count() > 0)
@@ -397,7 +395,7 @@
                         </div>
                     </div>
                 @endif
-                {{-- ads --}}
+<!--                 {{-- ads --}}
                 @if(!empty($advertisingBannersSidebar) and count($advertisingBannersSidebar))
                     <div class="row">
                         @foreach($advertisingBannersSidebar as $sidebarBanner)
@@ -409,7 +407,7 @@
                         @endforeach
                     </div>
 
-                @endif
+                @endif -->
             </div>
         </div>
 
