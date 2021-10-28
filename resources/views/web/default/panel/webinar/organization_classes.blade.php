@@ -6,6 +6,7 @@
 
 @section('content')
 
+    <!--
     <section class="mt-25">
         <h2 class="section-title">{{ trans('panel.filter_classes') }}</h2>
 
@@ -76,12 +77,14 @@
             </form>
         </div>
     </section>
+    -->
 
 
     <section class="mt-25">
         <div class="d-flex align-items-start align-items-md-center justify-content-between flex-column flex-md-row">
             <h2 class="section-title">{{ trans('panel.organization_classes') }}</h2>
 
+            <!--
             <form action="" method="get">
                 <div class="d-flex align-items-center flex-row-reverse flex-md-row justify-content-start justify-content-md-center mt-20 mt-md-0">
                     <label class="cursor-pointer mb-0 mr-10 text-gray font-14 font-weight-500" for="freeClassesSwitch">{{ trans('panel.only_free_classes') }}</label>
@@ -91,6 +94,7 @@
                     </div>
                 </div>
             </form>
+            -->
         </div>
 
         @if(!empty($webinars) and !$webinars->isEmpty())
@@ -157,6 +161,7 @@
                                     </a>
                                 </div>
 
+                                <!--
                                 @include(getTemplate() . '.includes.webinar.rate',['rate' => $webinar->getRate()])
 
                                 <div class="webinar-price-box mt-15">
@@ -171,12 +176,15 @@
                                         <span class="real">{{ trans('public.free') }}</span>
                                     @endif
                                 </div>
+                                -->
 
                                 <div class="d-flex align-items-center justify-content-between flex-wrap mt-auto">
+                                    <!--
                                     <div class="d-flex align-items-start flex-column mt-20 mr-15">
                                         <span class="stat-title">{{ trans('public.item_id') }}:</span>
                                         <span class="stat-value">{{ $webinar->id }}</span>
                                     </div>
+                                    -->
 
                                     <div class="d-flex align-items-start flex-column mt-20 mr-15">
                                         <span class="stat-title">{{ trans('public.category') }}:</span>
@@ -230,10 +238,12 @@
                                         </div>
                                     @endif
 
+                                    <!--
                                     <div class="d-flex align-items-start flex-column mt-20 mr-15">
                                         <span class="stat-title">{{ trans('panel.sales') }}:</span>
                                         <span class="stat-value">{{ count($webinar->sales) }} ({{ $currency }}{{ (!empty($webinar->sales) and count($webinar->sales)) ? $webinar->sales->sum('amount') : 0 }})</span>
                                     </div>
+                                    -->
 
                                     @if($authUser->id != $webinar->teacher_id and $authUser->id != $webinar->creator_id)
                                         <div class="d-flex align-items-start flex-column mt-20 mr-15">

@@ -282,7 +282,7 @@
                     </li>
                 </ul>
             </div>
-        </li>-->
+        </li>
 
         <li class="sidenav-item {{ (request()->is('panel/support') or request()->is('panel/support/*')) ? 'sidenav-item-active' : '' }}">
             <a class="d-flex align-items-center" data-toggle="collapse" href="#supportCollapse" role="button" aria-expanded="false" aria-controls="supportCollapse">
@@ -307,7 +307,7 @@
             </div>
         </li>
 
-        <!--
+        
         @if(!$authUser->isUser())
             <li class="sidenav-item {{ (request()->is('panel/marketing') or request()->is('panel/marketing/*')) ? 'sidenav-item-active' : '' }}">
                 <a class="d-flex align-items-center" data-toggle="collapse" href="#marketingCollapse" role="button" aria-expanded="false" aria-controls="marketingCollapse">
@@ -355,6 +355,7 @@
             </li>
         @endif
 
+        <!--
         <li class="sidenav-item {{ (request()->is('panel/notifications')) ? 'sidenav-item-active' : '' }}">
             <a href="/panel/notifications" class="d-flex align-items-center">
             <span class="sidenav-notification-icon sidenav-item-icon mr-10">
@@ -363,6 +364,7 @@
                 <span class="font-14 text-dark-blue font-weight-500">{{ trans('panel.notifications') }}</span>
             </a>
         </li>
+        -->
 
         <li class="sidenav-item {{ (request()->is('panel/setting')) ? 'sidenav-item-active' : '' }}">
             <a href="/panel/setting" class="d-flex align-items-center">
