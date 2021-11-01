@@ -60,8 +60,10 @@
                                     <th class="text-left text-gray">{{ trans('auth.email') }}</th>
                                     <th class="text-center text-gray">{{ trans('public.phone') }}</th>
                                     <th class="text-center text-gray">{{ trans('webinars.webinars') }}</th>
+                                    <!--
                                     <th class="text-center text-gray">{{ trans('panel.sales') }}</th>
                                     <th class="text-center text-gray">{{ trans('panel.sales_amount') }}</th>
+                                    -->
                                     <th class="text-center text-gray">{{ trans('public.date') }}</th>
                                     <th></th>
                                 </tr>
@@ -93,12 +95,14 @@
                                         <td class="align-middle">
                                             <span class="text-dark-blue font-weight-500">{{ $user->webinars->count() }}</span>
                                         </td>
+                                        <!--
                                         <td class="align-middle">
                                             <span class="text-dark-blue font-weight-500">{{ $user->salesCount() }}</span>
                                         </td>
                                         <td class="align-middle">
                                             <span class="text-dark-blue font-weight-500">{{ $currency }}{{ $user->sales() }}</span>
                                         </td>
+                                        -->
                                         <td class="text-dark-blue font-weight-500 align-middle">{{ dateTimeFormat($user->created_at,'Y M j | H:i') }}</td>
 
                                         <td class="text-right align-middle">

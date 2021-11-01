@@ -1,3 +1,4 @@
+<!--
 <div class="xs-panel-nav d-flex d-lg-none justify-content-between py-5 px-15">
     <div class="user-info d-flex align-items-center justify-content-between">
         <div class="user-avatar">
@@ -9,11 +10,13 @@
         </div>
     </div>
 
-    <!--<button class="sidebar-toggler btn-transparent d-flex flex-column-reverse justify-content-center align-items-center p-5 rounded-sm sidebarNavToggle" type="button">
+    <button class="sidebar-toggler btn-transparent d-flex flex-column-reverse justify-content-center align-items-center p-5 rounded-sm sidebarNavToggle" type="button">
         <span>{{ trans('navbar.menu') }}</span>
         <i data-feather="menu" width="16" height="16"></i>
-    </button>-->
+    </button>
 </div>
+-->
+
 
 <div class="panel-sidebar pt-50 pb-25 px-25" id="panelSidebar">
     <button class="btn-transparent panel-sidebar-close sidebarNavToggle">

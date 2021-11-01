@@ -33,6 +33,7 @@
                         <h1 class="font-24 font-weight-bold text-dark-blue">{{ $user["full_name"] }}</h1>
                         <span class="text-gray">{{ $user["headline"] }}</span>
 
+                        <!--
                         <div class="stars-card d-flex align-items-center mt-5">
                             @include('web.default.includes.webinar.rate',['rate' => $userRates])
                         </div>
@@ -58,9 +59,11 @@
                                 @endforeach
                             @endif
                         </div>
+                        -->
                     </div>
                 </div>
 
+                <!--
                 <div class="user-actions d-flex flex-column">
                     <button type="button" id="followToggle" data-user-id="{{ $user['id'] }}" class="btn btn-{{ (!empty($authUserIsFollower) and $authUserIsFollower) ? 'danger' : 'primary' }} btn-sm">
                         @if(!empty($authUserIsFollower) and $authUserIsFollower)
@@ -74,6 +77,7 @@
                         <button type="button" class="js-send-message btn btn-border-white rounded btn-sm mt-15">{{ trans('site.send_message') }}</button>
                     @endif
                 </div>
+                -->
             </div>
 
             <div class="mt-40 border-top"></div>
@@ -125,9 +129,11 @@
                 <li class="nav-item mr-20 mr-lg-50 mt-30">
                     <a class="position-relative text-dark-blue font-weight-500 font-16 {{ (request()->get('tab') == 'webinars') ? 'active' : ''  }}" id="webinars-tab" data-toggle="tab" href="#webinars" role="tab" aria-controls="webinars" aria-selected="false">{{ trans('webinars.classes') }}</a>
                 </li>
+                <!--
                 <li class="nav-item mr-20 mr-lg-50 mt-30">
                     <a class="position-relative text-dark-blue font-weight-500 font-16 {{ (request()->get('tab') == 'badges') ? 'active' : ''  }}" id="badges-tab" data-toggle="tab" href="#badges" role="tab" aria-controls="badges" aria-selected="false">{{ trans('site.badges') }}</a>
                 </li>
+                -->
 
                 <li class="nav-item mr-20 mr-lg-50 mt-30">
                     <a class="position-relative text-dark-blue font-weight-500 font-16 {{ (request()->get('tab') == 'appointments') ? 'active' : ''  }}" id="appointments-tab" data-toggle="tab" href="#appointments" role="tab" aria-controls="appointments" aria-selected="false">{{ trans('site.book_an_appointment') }}</a>
