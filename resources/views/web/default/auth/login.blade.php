@@ -47,6 +47,7 @@
                         <button type="submit" class="btn btn-primary btn-block mt-20">{{ trans('auth.login') }}</button>
                     </form>
 
+                    <!--
                     <div class="text-center mt-20">
                         <span class="badge badge-circle-gray300 text-secondary d-inline-flex align-items-center justify-content-center">{{ trans('auth.or') }}</span>
                     </div>
@@ -60,6 +61,7 @@
                         <img src="/assets/default/img/auth/facebook.svg" class="mr-auto" alt="facebook svg"/>
                         <span class="flex-grow-1">{{ trans('auth.facebook_login') }}</span>
                     </a>
+                    -->
 
                     <div class="mt-30 text-center">
                         <a href="/forget-password" target="_blank">{{ trans('auth.forget_your_password') }}</a>
