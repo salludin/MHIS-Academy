@@ -14,6 +14,8 @@
         <div class="row login-container">
 
             <div class="col-12 col-md-6 pl-0">
+                <!--
+                -->
                 <img src="{{ getPageBackgroundSettings('login') }}" class="img-cover" alt="Login">
             </div>
             <div class="col-12 col-md-6">
