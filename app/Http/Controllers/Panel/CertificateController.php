@@ -107,7 +107,8 @@ class CertificateController extends Controller
         $quizzes = $query->with([
             'webinar',
             'quizResults' => function ($query) {
-                $query->orderBy('id', 'desc');
+                $query->where('user_id', auth()->user()->id)
+                ->orderBy('id', 'desc');
             },
         ])->paginate(10);
 
