@@ -29,7 +29,7 @@ return [
     'category_name' => 'Category',
     'select_category' => 'Select a category',
     'select_teacher' => 'Select an instructor',
-    'select_student' => 'Select a student',
+    'select_student' => 'Select a employee',
     'select_status' => 'Change status',
     'webinars_count' => 'Classes count',
     'image_cover' => 'Cover Image',
@@ -98,7 +98,7 @@ return [
     'youtube_vimeo' => 'External (Youtube, Vimeo, ...)',
     'add_new_faqs' => 'New FAQ',
 
-    'export_list_error_not_student' => 'No student purchased the class so the list couldnt be exported.',
+    'export_list_error_not_student' => 'No employee purchased the class so the list couldnt be exported.',
 
     'select_session_api' => 'Select live class provider',
     'session_local' => 'Custom',

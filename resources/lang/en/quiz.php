@@ -47,10 +47,10 @@ return [
     'correct' => 'Correct',
 
     'new_descriptive_question' => 'New descriptive question',
-    'student' => 'Student',
+    'student' => 'Employee',
     'students' => 'Employees',
     'instructors' => 'Instructors',
-    'student_results' => 'Student Results',
+    'student_results' => 'Employee Results',
     'average' => 'Average',
     'average_grade' => 'Average grade',
     'minimum_grade' => 'Minimum grade',
@@ -89,7 +89,7 @@ return [
     'status_passed_title' => 'Congratulations! You passed this exam.',
     'status_passed_hint' => 'You passed the exam with :grade grade.',
     'cant_start_quiz' => 'You cant start this quiz.',
-    'student_grade' => 'Student grade',
+    'student_grade' => 'Employee grade',
 
     'quiz_start' => 'Start quiz',
     'quiz_status' => 'Status quiz',
@@ -103,7 +103,7 @@ return [
     'certificates_lists' => 'Certificates list',
     'certificates_statistics' => 'Certificates statistics',
     'active_certificates' => 'Active certificates',
-    'student_achievements' => 'Student achievements',
+    'student_achievements' => 'Employee achievements',
     'failed_students' => 'Failed employees',
     'filter_certificates' => 'Filter certificates',
     'generated_certificates' => 'Generated certificates',
@@ -116,7 +116,7 @@ return [
     'my_certificates_no_result_hint' => 'You can achieve valid certificates by enrolling on classes.',
 
     'quiz_chance_remained' => ':count chance remained',
-    'student_answer' => 'Student answer',
+    'student_answer' => 'Employee answer',
 
     'new_quiz_page_title' => 'New Quiz',
     'quizzes_list_page_title' => 'Quizzes lists',
