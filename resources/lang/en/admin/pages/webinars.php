@@ -31,7 +31,7 @@ return [
     'type_text_lessons' => 'Text lessons',
     'type_courses' => 'Courses',
     'teacher_name' => 'Teacher Name',
-    'student' => 'Student',
+    'student' => 'Employee',
     'category_name' => 'Category Name',
     'select_category' => 'Select Category',
     'select_teacher' => 'choose a teacher name',
