@@ -14,8 +14,8 @@ return [
     'maximum_50_characters' => 'Maximum 50 characters',
     'course_thumbnail_size' => '360x250px preferred',
     'course_cover_size' => '1920x530px preferred',
-    'capacity_placeholder' => 'How many students will you host?',
-    'subscribe_hint' => 'Students will be able to subscribe to your course in addition of direct purchasing.',
+    'capacity_placeholder' => 'How many employees will you host?',
+    'subscribe_hint' => 'Employees will be able to subscribe to your course in addition of direct purchasing.',
     'webinar_description_placeholder' => 'Minimum 300 words. HTML and images supported.',
     'empty_means_unlimited' => 'Leave it blank for unlimited.',
 
