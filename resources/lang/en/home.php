@@ -25,7 +25,7 @@ return [
     'live_classes' => 'Live Classes',
     'live_classes_hint' => 'Improve your skills using live knowledge flow.',
 
-    'happy_students' => 'Happy Students',
+    'happy_students' => 'Happy Employees',
     'happy_students_hint' => 'Enrolled in our classes and improved their skills.',
 
     'offline_courses' => 'Video Courses',

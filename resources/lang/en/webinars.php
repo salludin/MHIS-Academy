@@ -83,11 +83,11 @@ return [
 
     'sale_plans' => 'Pricing Plans',
     'sale_plans_hint_1' => 'Pricing plans will help you to create time & capacity depended prices for your content.',
-    'sale_plans_hint_2' => 'You can create pricing plans for a limited time or limited number of class students.',
+    'sale_plans_hint_2' => 'You can create pricing plans for a limited time or limited number of class employees.',
     'sale_plans_hint_3' => 'If you don\'t create a pricing plan, your class base price will be considered.',
     'files_hint_1' => 'You can upload course parts for video courses using this section.',
     'files_hint_2' => 'You can also upload additional files like projects, exercises, attachments.',
-    'required_hint' => 'For required (forced) prerequisites, students should pass them before purchasing your course.',
+    'required_hint' => 'For required (forced) prerequisites, employees should pass them before purchasing your course.',
     'file_upload_placeholder' => 'Select a file',
     'file_online_placeholder' => 'Import video link from youtube or vimeo',
     'file_volume' => 'Volume (MB)',
@@ -112,7 +112,7 @@ return [
     'next_session_start_date' => 'Next session start date',
 
     'all_courses' => 'All classes',
-    'all_students' => 'All students',
+    'all_students' => 'All employees',
     'all_instructors' => 'All instructors',
 
     'next_session_info' => 'Next session information',
@@ -129,7 +129,7 @@ return [
     'show_only_featured' => 'Show only featured classes',
 
     'private' => 'Private',
-    'create_private_course_hint' => 'If you enable this option the class wont be published on website and will be displayed on the organization instructors and students panel.',
+    'create_private_course_hint' => 'If you enable this option the class wont be published on website and will be displayed on the organization instructors and employees panel.',
     'partner_Teacher_hint' => 'If your course has a partner instructor, turn it on.',
 
 

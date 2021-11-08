@@ -215,11 +215,11 @@ return [
     'instructors_no_result' => 'No instructor added yet!',
     'instructors_no_result_hint' => 'You can create instructors related to the organization.',
 
-    'filter_students' => 'Filter Students',
-    'students_list' => 'Students List',
+    'filter_students' => 'Filter Employees',
+    'students_list' => 'Employees List',
     'add_an_student' => 'New student',
     'students_no_result' => 'No student added yet!',
-    'students_no_result_hint' => 'You can add your organization students easily.',
+    'students_no_result_hint' => 'You can add your organization employees easily.',
 
     'meeting_sales' => 'Meeting sales',
     'appointment_sales' => 'Meeting sales',
@@ -228,7 +228,7 @@ return [
     'job_title' => 'Job Title',
     'bio_hint_1' => 'The "Job title" will be displayed at the bottom of your name on the profile cards.',
     'bio_hint_2' => 'Keep it short (2 or 3 words) Eg "Product designer, Senior software engineer".',
-    'interests_hint_1' => 'Choosing interest topics (for instructors) will help students to find you for live meetings.',
+    'interests_hint_1' => 'Choosing interest topics (for instructors) will help employees to find you for live meetings.',
     'interests_hint_2' => 'If you conduct live meetings choosing more accurate topics suggested.',
     'not_assign_any_webinar' => 'Not assigned to any class',
     'active' => 'Active',

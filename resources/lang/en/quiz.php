@@ -48,7 +48,7 @@ return [
 
     'new_descriptive_question' => 'New descriptive question',
     'student' => 'Student',
-    'students' => 'Students',
+    'students' => 'Employees',
     'instructors' => 'Instructors',
     'student_results' => 'Student Results',
     'average' => 'Average',
@@ -66,10 +66,10 @@ return [
 
     'create_a_quiz' => 'Create a quiz',
     'quiz_no_result' => 'No quiz is created!',
-    'quiz_no_result_hint' => 'You can create quizzes and let your students to evaluate themselves.',
+    'quiz_no_result_hint' => 'You can create quizzes and let your employees to evaluate themselves.',
 
     'quiz_result_no_result' => 'No result is available.',
-    'quiz_result_no_result_hint' => 'Your students didn\'t pass any quiz yet!',
+    'quiz_result_no_result_hint' => 'Your employees didn\'t pass any quiz yet!',
 
     'need_to_review' => 'Need review',
 
@@ -104,7 +104,7 @@ return [
     'certificates_statistics' => 'Certificates statistics',
     'active_certificates' => 'Active certificates',
     'student_achievements' => 'Student achievements',
-    'failed_students' => 'Failed students',
+    'failed_students' => 'Failed employees',
     'filter_certificates' => 'Filter certificates',
     'generated_certificates' => 'Generated certificates',
     'certificates_no_result' => 'No certificate for your classes!',

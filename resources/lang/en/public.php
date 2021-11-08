@@ -48,8 +48,8 @@ return [
     'paid_amount' => 'Paid Amount',
     'instructor' => 'Instructor',
     'instructors' => 'Instructors',
-    'students' => 'Students',
-    'students_and_instructors' => 'Students and Instructors',
+    'students' => 'Employees',
+    'students_and_instructors' => 'Employees and Instructors',
     'search_instructors' => 'Search Instructors...',
     'publish_date' => 'Date Published',
     'forced' => 'Forced',
@@ -124,7 +124,7 @@ return [
     'add_session' => 'New Session',
     'add_new_sessions' => 'New Live Session',
     'sessions_no_result' => 'No live sessions!',
-    'sessions_no_result_hint' => 'You can create live sessions so students will be able to join and start learning.',
+    'sessions_no_result_hint' => 'You can create live sessions so employees will be able to join and start learning.',
     'create_join_link' => 'Create join link',
 
     'newest' => 'Newest',
@@ -146,7 +146,7 @@ return [
     'add_test_lesson' => 'New text lesson',
     'add_new_test_lesson' => 'Add new text lesson',
     'text_lesson_no_result' => 'No text lesson!',
-    'text_lesson_no_result_hint' => 'Create text lessons so students will be able to enroll on them and start learning.',
+    'text_lesson_no_result_hint' => 'Create text lessons so employees will be able to enroll on them and start learning.',
 
     'prerequisites' => 'Prerequisites',
     'add_prerequisites' => 'New Prerequisite',
@@ -154,7 +154,7 @@ return [
     'select_prerequisites' => 'Select Prerequisite',
     'search_prerequisites' => 'Search for prerequisites',
     'prerequisites_no_result' => 'No prerequisite is defined!',
-    'prerequisites_no_result_hint' => 'You can create forced or suggested prerequisites for students to learn better.',
+    'prerequisites_no_result_hint' => 'You can create forced or suggested prerequisites for employees to learn better.',
 
     'basic_information' => 'Basic Information',
     'extra_information' => 'Extra Information',
@@ -184,7 +184,7 @@ return [
     'not_participated' => 'Not Participated',
     'dont_have_quiz' => 'You do not have a quiz, please define a quiz.',
     'quizzes_no_result' => 'No Quizz is selected for this class.',
-    'quizzes_no_result_hint' => 'By creating quizzes you can evaluate students and award certificates to them.',
+    'quizzes_no_result_hint' => 'By creating quizzes you can evaluate employees and award certificates to them.',
 
     'agree_rules' => 'I agree with terms & rules.',
 
@@ -205,7 +205,7 @@ return [
     'new' => 'New',
     'history' => 'History',
     'item_id' => 'Item ID',
-    'export_list' => 'Export students list',
+    'export_list' => 'Export employees list',
     'duplicate' => 'Duplicate',
 
     'updated_at' => 'Updated Date',
@@ -329,7 +329,7 @@ return [
     'paid_form_subscribe' => 'Paid for Subscribe',
     'income_for_promotion' => 'Paid for Promotion',
 
-    'ticket_for_students_until_date' => 'For first :students students until :date',
+    'ticket_for_students_until_date' => 'For first :students employees until :date',
     'ticket_until_date' => 'until :date',
 
     'about' => 'About',
