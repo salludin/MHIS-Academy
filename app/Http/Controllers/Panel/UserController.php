@@ -441,6 +441,7 @@ class UserController extends Controller
                 'language' => $data['language'],
                 'newsletter' => (!empty($data['join_newsletter']) and $data['join_newsletter'] == 'on'),
                 'public_message' => (!empty($data['public_messages']) and $data['public_messages'] == 'on'),
+                'verified' => true,
                 'created_at' => time()
             ]);
 
